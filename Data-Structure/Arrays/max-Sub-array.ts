@@ -20,7 +20,7 @@
  
 
 
- var maxSubArray = function(nums) {
+ const maxSubArray = (nums)=> {
     // initiate two variable, maxSum for total max, sum for current max
     let maxSum = -Infinity
     let currentSum = 0
